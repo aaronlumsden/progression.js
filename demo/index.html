@@ -1,0 +1,90 @@
+<html>
+<head>
+	<title>Progression.js Demo</title>
+
+	<style>
+		#myform{
+			width:300px;
+			margin: 0 auto;
+		}
+		label{
+			display:block;
+		}
+		input,textarea{
+			width:100%;
+		}
+	</style>
+	<link href='progression.min.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="progression.min.js"></script>
+
+
+
+
+	<script>
+	jQuery(document).ready(function($) {
+
+		$("#myform").progression({
+		  tooltipWidth: '200',
+		  tooltipPosition: 'right',
+		  tooltipOffset: '50',
+		  showProgressBar: true,
+		  showHelper: true,
+		  tooltipFontSize: '14',
+		  tooltipFontColor: 'fff',
+		  progressBarBackground: 'fff',
+		  progressBarColor: '6EA5E1',
+		  tooltipBackgroundColor:'a2cbfa',
+		  tooltipPadding: '10',
+		  tooltipAnimate: true
+		});
+
+	});
+
+	</script>
+</head>
+<body>
+
+
+	<form id="myform">
+		<p>
+			<label for="">Click on a field</label>
+			<input  data-progression type="text" data-helper="Help users through forms by prividing helpful hinters" name="name" value="" placeholder="">
+		</p>
+
+		<p>
+			<label for="">Helps provide a better user experience</label>
+			<input data-progression type="text" data-helper="Tracks users progress when filling in forms" name="email" value="" placeholder="">
+		</p>
+
+
+
+			<p class="left">
+			<label for="">Another Field</label>
+			<input data-progression type="text" data-helper="The tooltip is fully customisable" name="mytel" value="" placeholder="">
+		</p>
+			
+
+
+
+			<p class="right">
+			<label for="">Another Field</label>
+			<input data-progression type="text" data-helper="And can be positioned left or right" name="mytel" value="" placeholder="">
+		</p>
+			
+
+
+		<p>
+			<label for="">Telephone Number</label>
+			<textarea data-progression name="" data-helper="Either the helper text or progress bar can be turned off"></textarea>
+		</p>
+
+		<p>
+			<input type="submit" class="button" name="" value="Lets Go!" placeholder="">
+		</p>
+
+
+	</form>
+
+</body>
+</html>

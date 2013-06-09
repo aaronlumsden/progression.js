@@ -1,0 +1,52 @@
+
+.percent{
+display: block;
+color: #fff;
+font-size: 12px;
+margin-left: 5px;
+height: auto;
+position: absolute;
+top: 2px;
+}
+.triangle_right{
+	width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 7.5px 10px 7.5px 0;
+border-color: transparent rgba(255,255,255,.3) transparent transparent;
+display:block;
+position: absolute;
+left: -10px;
+top: 10px;
+}
+.triangle_left{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 7.5px 0 7.5px 10px;
+border-color: transparent transparent transparent rgba(255,255,255,.3);
+display:block;
+position: absolute;
+right: -10px;
+top: 10px;
+}
+.tooltip p{
+color:white;
+margin-bottom:10px;
+font-size: 14px;
+
+}
+.percentagebarinner{
+width: 0%;
+background: #FFF;
+height: 20px;
+background:#6EA5E1;
+position: relative;
+
+}
+.percentagebar{
+	width:100%;
+	position:relative;
+	background: #FFF;
+	height:20px;
+}
