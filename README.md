@@ -67,95 +67,131 @@ If you want to initiate the plugin with options then you can do so like:
 
 #### ..:: Options
 
-Table for two
--------------
+<table>
+    <thead>
+      <tr>
+        <th>Variable</th>
 
- <table>
-    						<thead>
-								<tr>
-									<th>Variable</th>
-									<th>Default Value</th>
-									<th>Description</th>
-									<th>Valid Options</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>tooltipWidth</td>
-									<td>200</td>
-									<td>The width in pixels that you would like the tooltip to be</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>tooltipPosition</td>
-									<td>right</td>
-									<td>Whether the tooltip should sit to the left or right of the form</td>
-									<td>left/right</td>
-								</tr>
-								<tr>
-									<td>tooltipOffset</td>
-									<td>50</td>
-									<td>The width in pixels that you would like the offset of the tooltip to be</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td>showProgressBar</td>
-									<td>true</td>
-									<td>Whether the progress bar should be displayed or not</td>
-									<td>true/false</td>
-								</tr>
-								<tr>
-									<td>showHelper</td>
-									<td>true</td>
-									<td>Whether the helper text should be shown or not</td>
-									<td>true/false</td>
-								</tr>
+        <th>Default Value</th>
 
-								<tr>
-									<td>tooltipFontSize</td>
-									<td>14</td>
-									<td>Set the font size of the helper text in pixels</td>
-									<td></td>
-								</tr>
+        <th>Description</th>
 
-								<tr>
-									<td>tooltipFontColor</td>
-									<td>ffffff</td>
-									<td>The hash color reference of the helper text</td>
-									<td></td>
-								</tr>
+        <th>Valid Options</th>
+      </tr>
+    </thead>
 
-								<tr>
-									<td>progressBarBackground</td>
-									<td>ffffff</td>
-									<td>The hash color reference of the progress bar background</td>
-									<td></td>
-								</tr>
+    <tbody>
+      <tr>
+        <td>tooltipWidth</td>
 
-								<tr>
-									<td>progressBarColor</td>
-									<td>6EA5E1</td>
-									<td>The hash color reference of the progress bar</td>
-									<td></td>
-								</tr>
+        <td>200</td>
 
-								<tr>
-									<td>tooltipPadding</td>
-									<td>10</td>
-									<td>The padding for the tooltip in pixels</td>
-									<td></td>
-								</tr>
+        <td>The width in pixels that you would like the tooltip to be</td>
 
-								<tr>
-									<td>tooltipAnimate</td>
-									<td>true</td>
-									<td>Whether to animate the tooltip or not</td>
-									<td>true/false</td>
-								</tr>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>tooltipPosition</td>
+
+        <td>right</td>
+
+        <td>Whether the tooltip should sit to the left or right of the form</td>
+
+        <td>left/right</td>
+      </tr>
+
+      <tr>
+        <td>tooltipOffset</td>
+
+        <td>50</td>
+
+        <td>The width in pixels that you would like the offset of the tooltip to be</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>showProgressBar</td>
+
+        <td>true</td>
+
+        <td>Whether the progress bar should be displayed or not</td>
+
+        <td>true/false</td>
+      </tr>
+
+      <tr>
+        <td>showHelper</td>
+
+        <td>true</td>
+
+        <td>Whether the helper text should be shown or not</td>
+
+        <td>true/false</td>
+      </tr>
+
+      <tr>
+        <td>tooltipFontSize</td>
+
+        <td>14</td>
+
+        <td>Set the font size of the helper text in pixels</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>tooltipFontColor</td>
+
+        <td>ffffff</td>
+
+        <td>The hash color reference of the helper text</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>progressBarBackground</td>
+
+        <td>ffffff</td>
+
+        <td>The hash color reference of the progress bar background</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>progressBarColor</td>
+
+        <td>6EA5E1</td>
+
+        <td>The hash color reference of the progress bar</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>tooltipPadding</td>
+
+        <td>10</td>
+
+        <td>The padding for the tooltip in pixels</td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td>tooltipAnimate</td>
+
+        <td>true</td>
+
+        <td>Whether to animate the tooltip or not</td>
+
+        <td>true/false</td>
+      </tr>
+    </tbody>
+  </table>
 
 
-
-								
-							</tbody>
-						</table>
       
