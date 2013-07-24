@@ -52,3 +52,7 @@
   height:20px;
   background:#FFF;
 }
+.animated{
+  -webkit-transition: top .3s ease-in-out;
+  -moz-transition: top .3s ease-in-out;-o-transition: top .3s ease-in-out;transition: top .3s ease-in-out;
+}
