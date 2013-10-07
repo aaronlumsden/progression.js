@@ -43,10 +43,10 @@ Once you have created your form you will need to initiate the plugin.
 
 At its most basic level you can initiate the plugin like:
 
-   $(document).ready(function ($) {
-
+    $(document).ready(function ($) {
+        
         $("#myform").progression();
-
+        
     });
                             
 
