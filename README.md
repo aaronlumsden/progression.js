@@ -6,9 +6,6 @@ A jQuery plugin that gives users real time hints &amp; progress updates as they 
 
 ### Documentation
 
-#### ..:: Demo
-For a demo visit http://git.aaronlumsden.com/progression/
-
 #### ..:: Getting Started
 
 ##### Include the relevant files
