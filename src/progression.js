@@ -50,7 +50,7 @@
             thisid = this.$elem.attr('id');
             firstoffset =  data_prog.first().position().top;
             firsthelper =  data_prog.first().attr('data-helper');
-          
+
                 function GetPercentage(a, b) {
                     return ((b / a) * 100);
                 }
@@ -90,10 +90,10 @@
 
                 $this1.bind('live focus change',function(){
 
-                   thisprogressionlength = $this1.parent().parent().find('[data-progression]').length;
-                   alldataprogression = $this1.parent().parent().find('[data-progression]');
+                   thisprogressionlength = $this1.closest('form').find('[data-progression]').length;
+                   alldataprogression = $this1.closest('form').find('[data-progression]');
 
-                    thisid2=$this1.parent().parent().attr('id');
+                    thisid2=$this1.closest('form').attr('id');
                     thistooltip = $('[data-tooltip="'+thisid2+'"]');
                     thishelper= $this1.attr('data-helper');
 
